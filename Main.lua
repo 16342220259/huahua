@@ -725,7 +725,7 @@ function addtostr(add,amount)
 end
 
 function getpatch()
-  API = gg.makeRequest('https://raw.githubusercontent.com/Kelrit402/TGC_Sky_is_dead/main/Sharelocate.lua').content
+  API = gg.makeRequest('https://github.com/16342220259/huahua/blob/8cffa521a5255025ea7a4a59b29d9c58884020fd/Sharelocate.lua').content
   if not API then
     gg.toast('patch failed')
   else
