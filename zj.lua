@@ -1,8 +1,8 @@
 gg.setVisible(false)
-local sz='http://cloud.tonwzf.xyz/api/v3/file/get/2472/%E5%9F%BA%E6%9C%AC%E6%95%B0%E7%BB%84.lua?sign=qYyCuY860VFCbAhKRwePGqZZbMc9bx0AnTgj6osJ1yw%3D%3A0'
+local sz='https://github.com/16342220259/huahua/blob/main/jcsz.lua'
 pcall(load(gg.makeRequest(sz).content))--基本数组
 
-local yd='http://cloud.tonwzf.xyz/api/v3/file/get/2471/%E5%8E%9F%E5%9C%B0%E6%95%B0%E7%BB%84.lua?sign=eY72tI9gTuMvEnqOHE9GBZD8I25-tym16PDap3GhRCE%3D%3A0'
+local yd='https://github.com/16342220259/huahua/blob/main/ydsz.lua'
 pcall(load(gg.makeRequest(yd).content))--原地数组
 
 
@@ -73,7 +73,7 @@ so=gg.getRangesList('libBootloader.so')[1].start
 gg.addListItems({{address=gg.getRangesList('libBootloader.so')[1].start,flags=32,name='so'}})
 
 
-local pyy='http://cloud.tonwzf.xyz/api/v3/file/get/2643/%E8%87%AA%E7%94%A8%E5%81%8F%E7%A7%BB%E6%95%B0%E7%BB%84.lua?sign=Qe-YOpxjSLzgjF9H7AXHceDd5EKRS7m8IRqzWN3YH8E%3D%3A0'
+local pyy='https://github.com/16342220259/huahua/blob/main/zjpy.lua'
 pcall(load(gg.makeRequest(pyy).content))
 -------------------------
   candle={}--点蜡烛
@@ -4460,7 +4460,7 @@ end
 
 -------------------------景点菜单模块----------------------
 function Z_enjoyCoor(x)--共享景点
-    gxzb='http://cloud.tonwzf.xyz/api/v3/file/get/2411/%E6%99%AF%E7%82%B9%E6%95%B0%E7%BB%84.lua?sign=dDUGag79mjpIYs2cL_NhK1nk312WWwTapG0LTI2NEww%3D%3A0'
+    gxzb='https://github.com/16342220259/huahua/blob/main/jdsz.lua'
 pcall(load(gg.makeRequest(gxzb).content))
     if gxzb == nil then
     gg.alert("坐标数据获取失败，请稍后再试")
@@ -4718,7 +4718,7 @@ end
 
 function zdtq()--自动弹琴
 zdtqpz()
-QP="http://cloud.tonwzf.xyz/api/v3/file/get/2413/%E8%87%AA%E5%8A%A8%E5%BC%B9%E7%90%B4.lua?sign=e3kuNVgD58-EnDnc7FhY4bP0Q9_Y-3cVrk7yHGAZZUE%3D%3A0"
+QP="https://github.com/16342220259/huahua/blob/main/zdtq.lua"
 QP1=gg.makeRequest(QP).content
 QP2=QP1:match("【琴谱】(.-)【琴谱】")
 pcall(load(gg.makeRequest(QP2).content))
